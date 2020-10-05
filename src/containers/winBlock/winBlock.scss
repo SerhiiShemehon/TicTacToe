@@ -1,0 +1,20 @@
+.win-holder{
+  width: 454px;
+  height: 444px;
+  margin: 0 auto;
+  border: 2px solid #07d400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  border-radius: 50px;
+
+  h1{
+    font-size: 70px;
+    background: linear-gradient(45deg, red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+  }
+}
